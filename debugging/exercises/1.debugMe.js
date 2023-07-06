@@ -3,7 +3,7 @@ const { check, runTest, skipTest } = require("../../test-api/index.js");
 // Fix the function below to pass the test!
 
 function sayHello() {
-  return "hello  Studens.";
+  return "hello students";
 }
 
 // Please do not change code below this line

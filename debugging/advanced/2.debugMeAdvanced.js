@@ -2,10 +2,10 @@ const { check, runTest, skipTest } = require("../../test-api/index.js");
 
 function compoundInterest(value, interestRate, years) {
   let bankAccount = value;
-  for (let i = 1; i <= years.length; i++) {
+  for (let i = 1; i <= years; i++) {
     bankAccount *= interestRate + 1;
   }
-  return value;
+  return Math.floor(bankAccount * 100) / 100;
 }
 
 runTest(

@@ -1,5 +1,6 @@
 const { check, runTest, skipTest } = require("../../test-api/index.js");
 const { sumArray } = require("./utils/sum");
+//ERROR IS IN sumArray
 
 function sumSentence(arr) {
   const costs = arr.map((fruitObj) => fruitObj.cost);

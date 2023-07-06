@@ -1,6 +1,6 @@
 const { check, runTest, skipTest } = require("../../test-api/index.js");
 
-// The returnHighest function will take an array of objects and an integer as arguments. The function will sort the array based on the score property in descending order. The function will then calculate how many objects will be returned in a new array, based on how many times num can be divided into the length of the initial array of objects argument. 
+// The returnHighest function will take an array of objects and an integer as arguments. The function will sort the array based on the score property in descending order. The function will then calculate how many objects will be returned in a new array, based on how many times num can be divided into the length of the initial array of objects argument.
 
 //(e.g. num = 4 goes into 15 3 times, the 3 highest scoring objects must return)
 
@@ -30,7 +30,7 @@ function returnHighest(array, num) {
     return b.score - a.score;
   });
 
-  let multipleOfNum = 1;
+  let multipleOfNum = 0;
   for (let i = 1; i <= array.length; i++) {
     if (i % num === 0) {
       multipleOfNum++;

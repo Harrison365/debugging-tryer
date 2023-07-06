@@ -3,7 +3,7 @@ const { check, runTest, skipTest } = require("../../test-api/index.js");
 // Fix the function below to pass the test!
 
 function returnMentorString(mentor) {
-  return "Hello" + Mentor + "!";
+  return "Hello " + mentor + "!";
 }
 
 // Please do not change code below this line

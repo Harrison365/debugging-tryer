@@ -11,7 +11,7 @@ function findingNemo(fish) {
     "Sea Turtle": "Crush",
   };
 
-  return tank[fish];
+  return fishTank[fish];
 }
 
 // Please do not change code below this line
