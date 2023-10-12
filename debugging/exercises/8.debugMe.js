@@ -4,8 +4,7 @@ const { check, runTest, skipTest } = require("../../test-api/index.js");
 
 function returnLastDigit(num) {
   const digitStr = String(num);
-  digitsArray = digitStr.split("");
-  return Number(digitsArray[digitsArray.length - 1]);
+  return Number(digitStr[digitStr.length - 1]);
 }
 
 // Please do not change code below this line
