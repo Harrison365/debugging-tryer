@@ -5,7 +5,7 @@ function compoundInterest(value, interestRate, years) {
   for (let i = 1; i <= years; i++) {
     bankAccount *= interestRate + 1;
   }
-  return Math.floor(bankAccount * 100) / 100;
+  return Number(bankAccount.toFixed(2));
 }
 
 runTest(
